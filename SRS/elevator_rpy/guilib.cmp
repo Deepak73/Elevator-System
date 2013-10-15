@@ -1,0 +1,136 @@
+I-Logix-RPY-Archive version 8.0.1 Modeler C++ 757343
+{ IComponent 
+	- _cmheader = "$Header$
+$Revision$
+";
+	- _id = GUID fbd6b3a2-df11-11d2-ab10-0010a4f1d0f6;
+	- _myState = 139264;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Configuration";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "GenerateDirectoryPerModelComponent";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "guilib";
+	- _objectCreation = "2021141304020061392281020";
+	- _umlDependencyID = "2207";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _filename = "PredefinedTypes.sbs";
+			- _subsystem = "PredefinedTypes";
+			- _class = "";
+			- _name = "Library";
+			- _id = GUID f9dc50e0-7f19-11d4-a076-00d0b780aafd;
+		}
+	}
+	- m_buildType = Library;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID fbd6b3a3-df11-11d2-ab10-0010a4f1d0f6;
+		- _name = "Files";
+		- _objectCreation = "2021143304020061392261020";
+		- _umlDependencyID = "2070";
+		- m_path = ".";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = OLDID 12236675 1;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _cmheader = "$Header$
+$Revision$
+";
+			- _id = OLDID 12236675 1;
+			- _myState = 8192;
+			- _name = "guilib";
+			- _objectCreation = "2021145304020061392241020";
+			- _umlDependencyID = "2207";
+			- _lastID = 2;
+			- _scopeType = Derived;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 0;
+			- _statechartImplementation = Reuseable;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "ElevatorPkg.sbs";
+					- _subsystem = "ElevatorPkg";
+					- _class = "";
+					- _name = "Building";
+					- _id = OLDID 3257293 3;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID fbd6b38c-df11-11d2-ab10-0010a4f1d0f6;
+				- _myState = 8192;
+				- _name = "guilib";
+				- _objectCreation = "2021147304020061392221020";
+				- _umlDependencyID = "2207";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 10.22.2002::15:21:46;
+			- strongCGTime = 10.22.2002::15:21:46;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- weakCGTime = 10.22.2002::15:21:46;
+	- strongCGTime = 10.22.2002::15:21:46;
+}
+

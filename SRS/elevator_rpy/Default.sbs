@@ -1,0 +1,120 @@
+I-Logix-RPY-Archive version 8.0.1 Modeler C++ 757343
+{ ISubsystem 
+	- _cmheader = "$Header$
+$Revision$
+";
+	- _id = OLDID 16466857 1;
+	- _myState = 8192;
+	- _name = "Default";
+	- _objectCreation = "199718304020061398981019";
+	- _umlDependencyID = "2277";
+	- _lastID = 976;
+	- weakCGTime = 6.27.2001::14:41:45;
+	- strongCGTime = 6.27.2001::14:41:41;
+	- _defaultComposite = OLDID 16466857 2;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = OLDID 16466857 2;
+			- _myState = 32768;
+			- _name = "TopLevel";
+			- _objectCreation = "199720304020061398961019";
+			- _umlDependencyID = "2370";
+			- weakCGTime = 6.27.2001::14:41:45;
+			- strongCGTime = 6.27.2001::14:41:41;
+			- _multiplicity = "";
+			- _itsStateChart = NULL;
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = OLDID 16466857 972;
+			- _name = "sys";
+			- _objectCreation = "199722304020061398941019";
+			- _umlDependencyID = "1910";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "host_configuration.omd";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "host configuration";
+				- _id = OLDID 11675727 1;
+			}
+			- weakCGTime = 6.27.2001::14:41:41;
+			- strongCGTime = 6.27.2001::14:41:41;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = OLDID 16466857 975;
+					- _name = "sys";
+					- _objectCreation = "199724304020061398921019";
+					- _umlDependencyID = "1910";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "theBuilding->configure( theHardware );";
+					}
+					- _initializer = "";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = NULL;
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPart 
+					- _id = OLDID 16466857 974;
+					- _name = "theHardware";
+					- _objectCreation = "199726304020061398901019";
+					- _umlDependencyID = "2694";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "ElevatorPkg.sbs";
+						- _subsystem = "ElevatorPkg";
+						- _class = "";
+						- _name = "IHardware";
+						- _id = OLDID 3257293 66;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = OLDID 16466857 973;
+					- _name = "theBuilding";
+					- _objectCreation = "199728304020061398881019";
+					- _umlDependencyID = "2703";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "ElevatorPkg.sbs";
+						- _subsystem = "ElevatorPkg";
+						- _class = "";
+						- _name = "Building";
+						- _id = OLDID 3257293 3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.22.2002::13:21:46;
+}
+

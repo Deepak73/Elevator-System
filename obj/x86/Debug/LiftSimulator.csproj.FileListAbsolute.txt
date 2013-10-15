@@ -1,0 +1,24 @@
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\bin\Debug\LiftSimulator.exe
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\bin\Debug\LiftSimulator.pdb
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\LiftSimulator.frmLiftSim.resources
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\LiftSimulator.Properties.Resources.resources
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\LiftSimulator.exe
+C:\Users\deep\Desktop\Lift-Simulator-master\Lift-Simulator-master\LiftSimulator\obj\x86\Debug\LiftSimulator.pdb
+J:\Lab 9_NITT Problem\Code\Lift-\Lift-master\Lift\obj\x86\Debug\LiftSimulator.exe
+J:\Lab 9_NITT Problem\Code\Lift-\Lift-master\Lift\obj\x86\Debug\LiftSimulator.pdb
+J:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\Simulator\obj\x86\Debug\LiftSimulator.exe
+J:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\Simulator\obj\x86\Debug\LiftSimulator.pdb
+C:\Users\deep\Desktop\Lab 9_NITT Problem\Code\Elevator_c#\elevator\Simulator\obj\x86\Debug\LiftSimulator.exe
+C:\Users\deep\Desktop\Lab 9_NITT Problem\Code\Elevator_c#\elevator\Simulator\obj\x86\Debug\LiftSimulator.pdb
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\LiftSimulator.exe
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\LiftSimulator.pdb
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\bin\Debug\LiftSimulator.exe
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\bin\Debug\LiftSimulator.pdb
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\LiftSimulator.frmLiftSim.resources
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\LiftSimulator.Properties.Resources.resources
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Lab 9_NITT Problem\Code\Elevator_c#\elevator\obj\x86\Debug\GenerateResource.write.1.tlog

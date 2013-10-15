@@ -1,0 +1,677 @@
+I-Logix-RPY-Archive version 8.0.1 Modeler C++ 757343
+{ IProfile 
+	- _id = GUID 2a155864-f668-4216-8df4-2b4be001edc5;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 6;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Argument";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "UsageType";
+								- _Value = "None";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Existence, Implementation, Specification, None";
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CORBA";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 15;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBABasic";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAEnum";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAFixedArray";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAFixedSequence";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAFixedStruct";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAFixedUnion";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAInterfaceReference";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAInterfaceVariable";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAObjectReference";
+						- Properties = { IRPYRawContainer 
+							- size = 5;
+							- value = 
+							{ IProperty 
+								- _Name = "ReturnValue";
+								- _Value = "$type";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "in";
+								- _Value = "$type_var&";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "inout";
+								- _Value = "$type_var&";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "out";
+								- _Value = "$type_var&";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBASequence";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAVariableArray";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAVariableStruct";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "C++Mapping_CORBAVariableUnion";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "TriggerArgument";
+								- _Value = "$in";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Configuration";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "Pre61C++TypeNamesResolution";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Operation";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "C++DefaultThrow";
+								- _Value = "";
+								- _Type = MultiLine;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Dependency";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "GenerateOriginComment";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "OMContainers";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 10;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "BoundedOrdered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "BoundedUnordered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "EmbeddedFixed";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "EmbeddedScalar";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "RefinedGetterCastScheme";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Fixed";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Qualified";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Scalar";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "StaticArray";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "UnboundedOrdered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "UnboundedUnordered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "OMUContainers";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 10;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "BoundedOrdered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "BoundedUnordered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "EmbeddedFixed";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "EmbeddedScalar";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "RefinedGetterCastScheme";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Fixed";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Qualified";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Scalar";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "StaticArray";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "UnboundedOrdered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "UnboundedUnordered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "STLContainers";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 10;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "BoundedOrdered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "BoundedUnordered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "EmbeddedFixed";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "EmbeddedScalar";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "RefinedGetterCastScheme";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Fixed";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Qualified";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Scalar";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "StaticArray";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "UnboundedOrdered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "UnboundedUnordered";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IterReturnType";
+								- _Value = "";
+								- _Type = String;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "CGCompatibilityPre61Cpp";
+	- _objectCreation = "2020995304020061393741020";
+	- _umlDependencyID = "3786";
+	- weakCGTime = 12.13.2005::12:0:59;
+	- strongCGTime = 12.13.2005::12:0:59;
+	- _defaultComposite = GUID fc079bde-4d81-441b-bba0-3bbe6929368a;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID fc079bde-4d81-441b-bba0-3bbe6929368a;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "2020997304020061393721020";
+			- _umlDependencyID = "2400";
+			- weakCGTime = 12.13.2005::12:0:59;
+			- strongCGTime = 12.13.2005::12:0:59;
+			- _multiplicity = "";
+			- _itsStateChart = NULL;
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

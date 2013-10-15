@@ -1,0 +1,128 @@
+I-Logix-RPY-Archive version 8.0.1 Modeler C++ 757343
+{ IProfile 
+	- _id = GUID d4ee5b94-9567-4f9e-a279-72bbe2a5baa0;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 3;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Package";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
+								- _Name = "GeneratePackageCleanup";
+								- _Value = "Always";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Always, Never ,Smart";
+							}
+							{ IProperty 
+								- _Name = "GeneratePackageInitialization";
+								- _Value = "Always";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Always, Never ,Smart";
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Relation";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "IgnoreQualifierOnBlackDiamond";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CORBA";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Attribute";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "ConstantAsReadOnly";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Attribute";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "EnableInitializationStyleForStaticAttributes";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Relation";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "CreateComponentUsingIndex";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "CGCompatibilityPre61M1Cpp";
+	- _objectCreation = "2020999304020061393701020";
+	- _umlDependencyID = "3912";
+	- _description = { IDescription 
+		- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1255\\deff0\\deflang1037{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fnil\\fcharset177{\\*\\fname Arial;}Arial (Hebrew);}}
+\\viewkind4\\uc1\\pard\\ltrpar\\lang1033\\fs20 Code generation backward compatibility settings for pre-6.1 MR-1 models (automatically loaded)\\lang1037\\f1\\rtlch\\par
+}";
+	}
+	- weakCGTime = 12.7.2005::9:24:17;
+	- strongCGTime = 12.7.2005::9:24:17;
+	- _defaultComposite = GUID dc078d9b-ae18-413d-8765-7bc12232e572;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID dc078d9b-ae18-413d-8765-7bc12232e572;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "2021001304020061393681020";
+			- _umlDependencyID = "2382";
+			- weakCGTime = 12.7.2005::9:24:17;
+			- strongCGTime = 12.7.2005::9:24:17;
+			- _multiplicity = "";
+			- _itsStateChart = NULL;
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

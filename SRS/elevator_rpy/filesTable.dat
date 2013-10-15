@@ -1,0 +1,30 @@
+I-Logix-RPY-Archive version 8.0.1 Modeler * 757343
+
+- filesTable = { IRPYRawContainer 
+	- size = 23;
+	- value = "Projects.rpl" ""
+	"elevator.rpy" ""
+	"elevator_rpy\\CGCompatibilityPre61Cpp.sbs" "CGCompatibilityPre61Cpp"
+	"elevator_rpy\\CGCompatibilityPre61M1Cpp.sbs" "CGCompatibilityPre61M1Cpp"
+	"elevator_rpy\\CGCompatibilityPre70Cpp.sbs" "CGCompatibilityPre70Cpp"
+	"elevator_rpy\\Default.sbs" "Default"
+	"elevator_rpy\\ElevatorPkg.sbs" "ElevatorPkg"
+	"elevator_rpy\\Pre60GESkin.sbs" "Pre60GESkin"
+	"elevator_rpy\\call_when_elevator_idle_above_or_below_floor.clb" "call when elevator idle above or below floor"
+	"elevator_rpy\\call_when_elevator_idle_above_or_below_floor.msc" "call when elevator idle above or below floor"
+	"elevator_rpy\\call_when_elevator_idle_at_floor.clb" "call when elevator idle at floor"
+	"elevator_rpy\\call_when_elevator_idle_at_floor.msc" "call when elevator idle at floor"
+	"elevator_rpy\\call_when_elevator_moving_down_above_floor.msc" "call when elevator moving down above floor"
+	"elevator_rpy\\call_when_elevator_moving_down_below_floor.msc" "call when elevator moving down below floor"
+	"elevator_rpy\\call_when_elevator_moving_up_above_floor.msc" "call when elevator moving up above floor"
+	"elevator_rpy\\call_when_elevator_moving_up_below_floor.msc" "call when elevator moving up below floor"
+	"elevator_rpy\\gui.cmp" "gui"
+	"elevator_rpy\\guilib.cmp" "guilib"
+	"elevator_rpy\\host.cmp" "host"
+	"elevator_rpy\\host_configuration.omd" "host configuration"
+	"elevator_rpy\\main_uses.ucd" "main uses"
+	"elevator_rpy\\overview.omd" "overview"
+	"elevator_rpy\\target.cmp" "target"
+	
+}
+
